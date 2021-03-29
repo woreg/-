@@ -34,7 +34,7 @@ namespace WpfApp1
         {
             Button currentbutton = (Button)this.FindName(buttonname);
             currentbutton.Content = newviewvalue;
-            currentbutton.FontSize = 34;
+            //currentbutton.FontSize = 56;
         }
         
         private void button1_Click(object sender, RoutedEventArgs e)
